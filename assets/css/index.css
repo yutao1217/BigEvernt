@@ -1,17 +1,69 @@
-.footer-font {
+/* logo背景颜色 */
+
+.layui-header .layui-bg-black {
+    background-color: #23262E!important;
+}
+
+.layui-side {
+    overflow: hidden;
+}
+
+
+/* 图标部分 */
+
+.iconfont {
+    margin-right: 10px;
+}
+
+.layui-nav-child .iconfont {
+    margin-left: 20px;
+}
+
+
+/* 用户部分 */
+
+.layui-nav-img {
+    display: none;
+}
+
+#user_logo {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+
+#user_welcome {
+    font-size: 12px;
+    user-select: none;
+}
+
+.user_icon {
+    display: inline-block;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 700 !important;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #009688;
+    border-radius: 50%;
+}
+
+
+/* 底部公司信息 */
+
+.layui-footer {
     text-align: center;
     font-size: 12px;
 }
 
-.iconfont {
-    margin-right: 8px;
-}
 
-.icon-all {
-    margin-left: 20px;
-}
+/* 设置iframe部分 */
 
 iframe {
-    width: 100%;
     height: 100%;
+    width: 100%;
 }
