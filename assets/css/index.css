@@ -22,10 +22,6 @@
 
 /* 用户部分 */
 
-.layui-nav-img {
-    display: none;
-}
-
 #user_logo {
     height: 60px;
     line-height: 60px;
@@ -66,4 +62,5 @@
 iframe {
     height: 100%;
     width: 100%;
+    background-color: #f2f2f2;
 }
